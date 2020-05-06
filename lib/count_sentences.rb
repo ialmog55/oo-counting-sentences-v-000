@@ -15,10 +15,10 @@ class String
   end
 
   def count_sentences
-    
+
     self.split.grep(/[.!?]).length
 
-  
+
 
 
   end
