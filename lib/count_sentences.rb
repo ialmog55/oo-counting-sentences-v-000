@@ -17,9 +17,9 @@ class String
   def count_sentences
     count=0
     self.split.grep(/[.!?]).length
-      
+
     end
-    
+
 
   end
 end
